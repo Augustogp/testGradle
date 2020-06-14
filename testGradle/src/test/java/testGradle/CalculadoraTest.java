@@ -19,7 +19,7 @@ public class CalculadoraTest {
 	@Test
 	public void testResta() {
 		int resultado = Calculadora.resta(3, 2);
-		int esperado = 2;
+		int esperado = 4;
 		assertEquals(esperado,resultado);
 	}
 
